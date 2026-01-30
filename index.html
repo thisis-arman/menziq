@@ -1,45 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MenziQ | Your Style, Our Pride</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
-      body { font-family: "Inter", sans-serif; scroll-behavior: smooth; }
-      .fade-in { opacity: 0; transform: translateY(20px); transition: all 0.8s ease-out; }
-      .fade-in.visible { opacity: 1; transform: translateY(0); }
+      body {
+        font-family: "Inter", sans-serif;
+        scroll-behavior: smooth;
+      }
+      .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.8s ease-out;
+      }
+      .fade-in.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
     </style>
   </head>
   <body class="bg-white text-black">
-    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
-      <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <nav
+      class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"
+      >
         <h1 class="text-2xl font-bold tracking-tighter">MENZIQ</h1>
-        <div class="hidden md:flex space-x-8 text-sm font-medium tracking-widest uppercase">
+         <!-- <img src="https://i.ibb.co.com/rg6JwqF/blacke.jpg" alt=""> -->
+        <div
+          class="hidden md:flex space-x-8 text-sm font-medium tracking-widest uppercase"
+        >
           <a href="#" class="hover:text-gray-400 transition">New Arrivals</a>
           <a href="#" class="hover:text-gray-400 transition">Collections</a>
           <a href="#" class="hover:text-gray-400 transition">Our Pride</a>
         </div>
         <div class="flex items-center space-x-5">
-          <i class="fa-solid fa-magnifying-glass cursor-pointer hover:scale-110 transition"></i>
-          <i class="fa-solid fa-bag-shopping cursor-pointer hover:scale-110 transition"></i>
+          <i
+            class="fa-solid fa-magnifying-glass cursor-pointer hover:scale-110 transition"
+          ></i>
+          <i
+            class="fa-solid fa-bag-shopping cursor-pointer hover:scale-110 transition"
+          ></i>
         </div>
       </div>
     </nav>
 
-    <section class="relative h-screen flex items-center justify-center overflow-hidden bg-black text-white">
+    <section
+      class="relative h-screen flex items-center justify-center overflow-hidden bg-black text-white"
+    >
       <div class="z-10 text-center px-4">
-        <p class="uppercase tracking-[0.4em] text-xs mb-4 fade-in">Established 2026</p>
-        <h2 class="text-6xl md:text-9xl font-bold mb-6 tracking-tighter fade-in">MENZIQ</h2>
-        <p class="text-lg md:text-xl font-light italic mb-8 fade-in text-gray-300">"Your style, our pride."</p>
-        <button class="px-10 py-4 bg-white text-black hover:bg-transparent hover:text-white border border-white transition duration-300 font-bold uppercase text-xs tracking-widest fade-in">
+        <p class="uppercase tracking-[0.4em] text-xs mb-4 fade-in">
+          Established 2026
+        </p>
+        <h2
+          class="text-6xl md:text-9xl font-bold mb-6 tracking-tighter fade-in"
+        >
+          MENZIQ
+        </h2>
+        <p
+          class="text-lg md:text-xl font-light italic mb-8 fade-in text-gray-300"
+        >
+          "Your style, our pride."
+        </p>
+        <button
+          class="px-10 py-4 bg-white text-black hover:bg-transparent hover:text-white border border-white transition duration-300 font-bold uppercase text-xs tracking-widest fade-in"
+        >
           Explore Collection
         </button>
       </div>
       <div class="absolute inset-0 opacity-50">
-        <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?auto=format&fit=crop&q=80" alt="Fashion" class="w-full h-full object-cover" />
+        <img
+          src="https://i.ibb.co.com/YFrZSTbG/menziq-cover.jpg"
+          alt="Fashion"
+          class="w-full h-full object-cover"
+        />
       </div>
     </section>
 
@@ -61,70 +103,207 @@
           <h3 class="text-3xl font-bold tracking-tight">THE ESSENTIALS</h3>
           <div class="h-1 w-12 bg-black mt-2"></div>
         </div>
-        <a href="#" class="text-sm font-bold border-b border-black pb-1 hover:text-gray-500 hover:border-gray-500 transition">VIEW ALL</a>
+        <a
+          href="#"
+          class="text-sm font-bold border-b border-black pb-1 hover:text-gray-500 hover:border-gray-500 transition"
+          >VIEW ALL</a
+        >
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
         <div class="group cursor-pointer fade-in">
           <div class="relative aspect-[3/4] overflow-hidden bg-gray-100">
-            <img src="https://i.ibb.co.com/5Xk8DhPJ/image.png" class="object-cover w-full h-full group-hover:scale-105 transition duration-500" />
-            <div class="absolute bottom-4 left-4 bg-white px-3 py-1 text-xs font-bold uppercase">New</div>
+            <img
+              src="https://i.ibb.co.com/5Xk8DhPJ/image.png"
+              class="object-cover w-full h-full group-hover:scale-105 transition duration-500"
+            />
+            <div
+              class="absolute bottom-4 left-4 bg-white px-3 py-1 text-xs font-bold uppercase"
+            >
+              New
+            </div>
           </div>
-          <h4 class="mt-4 font-bold text-sm tracking-wide uppercase">Printed Black Shirt</h4>
+          <h4 class="mt-4 font-bold text-sm tracking-wide uppercase">
+            Printed Black Shirt
+          </h4>
           <p class="text-gray-500 text-sm">৳ 650</p>
         </div>
 
         <div class="group cursor-pointer fade-in">
           <div class="relative aspect-[3/4] overflow-hidden bg-gray-100">
-            <img src="https://i.ibb.co.com/DPGyZk23/image.png" class="object-cover w-full h-full group-hover:scale-105 transition duration-500" />
+            <img
+              src="https://i.ibb.co.com/DPGyZk23/image.png"
+              class="object-cover w-full h-full group-hover:scale-105 transition duration-500"
+            />
           </div>
-          <h4 class="mt-4 font-bold text-sm tracking-wide uppercase">Stripe Old Money shirt</h4>
+          <h4 class="mt-4 font-bold text-sm tracking-wide uppercase">
+            Stripe Old Money shirt
+          </h4>
           <p class="text-gray-500 text-sm">৳ 750</p>
         </div>
 
         <div class="group cursor-pointer fade-in">
           <div class="relative aspect-[3/4] overflow-hidden bg-gray-100">
-            <img src="https://i.ibb.co.com/whnhfkSM/image.png" class="object-cover w-full h-full group-hover:scale-105 transition duration-500" />
+            <img
+              src="https://i.ibb.co.com/whnhfkSM/image.png"
+              class="object-cover w-full h-full group-hover:scale-105 transition duration-500"
+            />
           </div>
-          <h4 class="mt-4 font-bold text-sm tracking-wide uppercase">Modern Black Shirt</h4>
+          <h4 class="mt-4 font-bold text-sm tracking-wide uppercase">
+            Modern Black Shirt
+          </h4>
           <p class="text-gray-500 text-sm">৳ 750</p>
         </div>
       </div>
     </section>
 
     <section class="bg-black text-white py-20">
-        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
-            <div class="fade-in">
-                <i class="fa-solid fa-truck-fast text-3xl mb-6"></i>
-                <h5 class="font-bold tracking-widest uppercase text-sm mb-2">Nationwide Delivery</h5>
-                <p class="text-gray-400 text-xs">Fast and secure shipping across Bangladesh.</p>
-            </div>
-            <div class="fade-in">
-                <i class="fa-solid fa-leaf text-3xl mb-6"></i>
-                <h5 class="font-bold tracking-widest uppercase text-sm mb-2">Sustainable Fabric</h5>
-                <p class="text-gray-400 text-xs">Premium materials that respect the planet.</p>
-            </div>
-            <div class="fade-in">
-                <i class="fa-solid fa-crown text-3xl mb-6"></i>
-                <h5 class="font-bold tracking-widest uppercase text-sm mb-2">Local Pride</h5>
-                <p class="text-gray-400 text-xs">Designed with the modern Bangladeshi spirit.</p>
-            </div>
+      <div
+        class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center"
+      >
+        <div class="fade-in">
+          <i class="fa-solid fa-truck-fast text-3xl mb-6"></i>
+          <h5 class="font-bold tracking-widest uppercase text-sm mb-2">
+            Nationwide Delivery
+          </h5>
+          <p class="text-gray-400 text-xs">
+            Fast and secure shipping across Bangladesh.
+          </p>
         </div>
+        <div class="fade-in">
+          <i class="fa-solid fa-leaf text-3xl mb-6"></i>
+          <h5 class="font-bold tracking-widest uppercase text-sm mb-2">
+            Sustainable Fabric
+          </h5>
+          <p class="text-gray-400 text-xs">
+            Premium materials that respect the planet.
+          </p>
+        </div>
+        <div class="fade-in">
+          <i class="fa-solid fa-crown text-3xl mb-6"></i>
+          <h5 class="font-bold tracking-widest uppercase text-sm mb-2">
+            Local Pride
+          </h5>
+          <p class="text-gray-400 text-xs">
+            Designed with the modern Bangladeshi spirit.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section class="bg-gray-50 py-24">
-      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <div
+        class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center"
+      >
         <div class="fade-in">
-          <img src="https://images.unsplash.com/photo-1515462277126-2dd0c162007a?auto=format&fit=crop&q=80" alt="Craftsmanship" class="w-full h-[600px] object-cover shadow-2xl grayscale" />
+          <img
+            src="https://images.unsplash.com/photo-1515462277126-2dd0c162007a?auto=format&fit=crop&q=80"
+            alt="Craftsmanship"
+            class="w-full h-[600px] object-cover shadow-2xl grayscale"
+          />
         </div>
         <div class="fade-in space-y-8">
-          <span class="text-xs font-bold tracking-[0.5em] uppercase text-gray-400">The Philosophy</span>
-          <h2 class="text-5xl font-bold leading-tight tracking-tighter">QUALITY OVER QUANTITY. <br />ALWAYS.</h2>
+          <span
+            class="text-xs font-bold tracking-[0.5em] uppercase text-gray-400"
+            >The Philosophy</span
+          >
+          <h2 class="text-5xl font-bold leading-tight tracking-tighter">
+            QUALITY OVER QUANTITY. <br />ALWAYS.
+          </h2>
           <p class="text-gray-600 leading-relaxed text-lg">
-            At MenziQ, we believe your wardrobe is an extension of your ambition. Every stitch is placed with purpose, every fabric sourced with pride.
+            At MenziQ, we believe your wardrobe is an extension of your
+            ambition. Every stitch is placed with purpose, every fabric sourced
+            with pride.
           </p>
           <div class="pt-4">
-            <a href="#" class="inline-block border-b-2 border-black pb-2 text-sm font-bold tracking-widest hover:text-gray-400 transition">READ OUR STORY</a>
+            <a
+              href="#"
+              class="inline-block border-b-2 border-black pb-2 text-sm font-bold tracking-widest hover:text-gray-400 transition"
+              >READ OUR STORY</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-sm font-bold tracking-[0.4em] uppercase mb-2">
+            Voices of Pride
+          </h2>
+          <p class="text-gray-400 text-xs">
+            What our community in Bangladesh is saying
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div class="space-y-4 fade-in">
+            <div class="flex text-xs space-x-1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-600 leading-relaxed italic">
+              "Finally, a brand that understands the balance between premium
+              style and the Dhaka heat. The fabric of the Structured Tee is
+              incredibly breathable. Proper global quality, made right here."
+            </p>
+            <div>
+              <p class="font-bold text-sm tracking-widest uppercase">
+                Tanvir Ahmed
+              </p>
+              <p class="text-[10px] text-gray-400 uppercase tracking-tighter">
+                Raozan, Verified Buyer
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-4 fade-in">
+            <div class="flex text-xs space-x-1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-600 leading-relaxed italic">
+              "Ordered from Chittagong and received my package in 48 hours. The
+              packaging was so sleek, it felt like I was opening a luxury gift.
+              MenziQ is now my go-to for essentials."
+            </p>
+            <div>
+              <p class="font-bold text-sm tracking-widest uppercase">
+                Zubair Hossain
+              </p>
+              <p class="text-[10px] text-gray-400 uppercase tracking-tighter">
+                Chattogram, Verified Buyer
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-4 fade-in">
+            <div class="flex text-xs space-x-1">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-gray-600 leading-relaxed italic">
+              "The fit is exactly as shown in the size guide. No more guessing
+              games like other online shops. The Pride in every stitch isn't
+              just a tagline—you can actually feel it."
+            </p>
+            <div>
+              <p class="font-bold text-sm tracking-widest uppercase">
+                Mahmudul Hasan
+              </p>
+              <p class="text-[10px] text-gray-400 uppercase tracking-tighter">
+                Hathazari, Verified Buyer
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -132,16 +311,38 @@
 
     <section class="py-24 border-t border-gray-100">
       <div class="text-center mb-16 fade-in">
-        <h2 class="text-sm font-bold tracking-[0.4em] uppercase mb-4">#WearYourPride</h2>
-        <p class="text-gray-500 italic">Join the MenziQ inner circle on Instagram</p>
+        <h2 class="text-sm font-bold tracking-[0.4em] uppercase mb-4">
+          #WearYourPride
+        </h2>
+        <p class="text-gray-500 italic">
+          Join the MenziQ inner circle on Instagram
+        </p>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-6 gap-2 px-2 fade-in">
-        <img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&q=60" class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500" />
-        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=60" class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500" />
-        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=60" class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500" />
-        <img src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?auto=format&fit=crop&q=60" class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500" />
-        <img src="https://images.unsplash.com/photo-1550246140-5119ae4790b8?auto=format&fit=crop&q=60" class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500" />
-        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=60" class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500" />
+        <img
+          src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&q=60"
+          class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=60"
+          class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=60"
+          class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?auto=format&fit=crop&q=60"
+          class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1550246140-5119ae4790b8?auto=format&fit=crop&q=60"
+          class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=60"
+          class="w-full aspect-square object-cover grayscale hover:grayscale-0 transition duration-500"
+        />
       </div>
     </section>
 
@@ -149,34 +350,89 @@
       <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div class="col-span-1 md:col-span-2">
           <h2 class="text-3xl font-bold mb-6 italic">MenziQ</h2>
-          <p class="text-gray-400 max-w-sm mb-6">Redefining modern apparel through a lens of minimalism and pride.</p>
+          <p class="text-gray-400 max-w-sm mb-6">
+            Redefining modern apparel through a lens of minimalism and pride.
+          </p>
           <div class="flex space-x-4">
-            <i class="fa-brands fa-instagram text-xl cursor-pointer hover:text-gray-400 transition"></i>
-            <i class="fa-brands fa-facebook-f text-xl cursor-pointer hover:text-gray-400 transition"></i>
+            <i
+              class="fa-brands fa-instagram text-xl cursor-pointer hover:text-gray-400 transition"
+            ></i>
+            <i
+              class="fa-brands fa-facebook-f text-xl cursor-pointer hover:text-gray-400 transition"
+            ></i>
           </div>
         </div>
         <div>
-          <h4 class="font-bold mb-4 uppercase text-xs tracking-widest">Support</h4>
+          <h4 class="font-bold mb-4 uppercase text-xs tracking-widest">
+            Support
+          </h4>
           <ul class="text-gray-400 text-sm space-y-2">
-            <li><a href="#" class="hover:text-white transition">Shipping</a></li>
+            <li>
+              <a href="#" class="hover:text-white transition">Shipping</a>
+            </li>
             <li><a href="#" class="hover:text-white transition">Returns</a></li>
-            <li><a href="#" class="hover:text-white transition">Sizing Guide</a></li>
+            <li>
+              <a href="#" class="hover:text-white transition">Sizing Guide</a>
+            </li>
           </ul>
         </div>
         <div>
-          <h4 class="font-bold mb-4 uppercase text-xs tracking-widest">Newsletter</h4>
+          <h4 class="font-bold mb-4 uppercase text-xs tracking-widest">
+            Newsletter
+          </h4>
           <div class="flex border-b border-gray-700 pb-2">
-            <input type="email" placeholder="Email Address" class="bg-transparent outline-none text-sm w-full" />
-            <button class="text-xs font-bold uppercase hover:text-gray-400 transition">Join</button>
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="bg-transparent outline-none text-sm w-full"
+            />
+            <button
+              class="text-xs font-bold uppercase hover:text-gray-400 transition"
+            >
+              Join
+            </button>
           </div>
         </div>
       </div>
-      <div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-gray-900 text-[10px] text-gray-600 uppercase tracking-widest flex justify-between">
-        <p>© 2026 MenziQ Apparel. made by <a href="https://wa.me/8801883350118?text=Hola%2C%20I%20want%20to%20talk%20about%20website">Arman</a></p>
+      <div
+        class="max-w-7xl mx-auto mt-16 pt-8 border-t border-gray-900 text-[10px] text-gray-600 uppercase tracking-widest flex justify-between"
+      >
+        <p>
+          © 2026 MenziQ Apparel. made by
+          <a
+            href="https://wa.me/8801883350118?text=Hola%2C%20I%20want%20to%20talk%20about%20website"
+            >Arman</a
+          >
+        </p>
         <p>Privacy Policy</p>
       </div>
     </footer>
 
+    <a
+      href="https://wa.me/8801874799976?text=Hello%20MenziQ!%20I'm%20interested%20in%20your%20apparel%20collection."
+      target="_blank"
+      class="fixed bottom-8 right-8 z-[100] group flex items-center"
+      aria-label="Chat on WhatsApp"
+    >
+      <span
+        class="mr-3 bg-black text-white text-[10px] uppercase tracking-[0.2em] font-bold py-2 px-4 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-xl hidden md:block"
+      >
+        Chat with us
+      </span>
+
+      <div
+        class="bg-black text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:bg-white hover:text-black border border-black transition-all duration-300 scale-100 group-hover:scale-110"
+      >
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+      </div>
+
+      <span class="absolute top-0 right-0 flex h-3 w-3">
+        <span
+          class="animate-ping absolute inline-flex h-full w-full rounded-full bg-black opacity-75"
+        ></span>
+        <span class="relative inline-flex rounded-full h-3 w-3 bg-black"></span>
+      </span>
+    </a>
     <script>
       const observerOptions = { threshold: 0.1 };
       const observer = new IntersectionObserver((entries) => {
@@ -187,7 +443,9 @@
         });
       }, observerOptions);
 
-      document.querySelectorAll(".fade-in").forEach((el) => observer.observe(el));
+      document
+        .querySelectorAll(".fade-in")
+        .forEach((el) => observer.observe(el));
     </script>
   </body>
 </html>
